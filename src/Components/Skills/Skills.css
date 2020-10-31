@@ -1,0 +1,56 @@
+.Skills .header h2 {
+    font-size: 35px;
+}
+
+.Skills h3 {
+    border: 1px solid #f3c623;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.Skills .header span {
+    color: #f3c623;
+}
+
+.Skills figcaption {
+    font-size: 16px;
+}
+
+.Skills .wrapper {
+	padding-bottom: 50px;
+}
+
+.Skills .divider {
+	position: relative;
+	margin-top: 30px;
+	height: 1px;
+}
+
+.Skills .div-transparent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	height: 1px;
+	background: #fff;
+}
+
+.Skills .div-dot:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: calc(50% - 5px);
+	width: 12px;
+	height: 12px;
+	background-color: #f3c623;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px#1D1D1D,
+					0 0 0 10px #1D1D1D;
+}
